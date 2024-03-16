@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    position: absolute;
+    left: 40%;
+    top: 200px;
+    width: 600px;
+    border: none;
+    font-size: x-large;
+    outline: none;
+}
+
+.barre3 {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    top: 25%;
+    background-color: black;
+    width: 900px;
+    height: 2px;
+    border: black 2px;
+}
+
+.bi-x {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    font-size: larger;
+    
+}

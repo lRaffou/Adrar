@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*start header */
+
+.pin-k {
+    background-color:#ff6d6d ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: "Poppins" , sans-serif;
+}
+
+nav ul {
+    display: flex;
+   
+  
+}
+
+nav {
+
+    justify-content: space-around;
+    position: relative;
+   
+
+    
+}
+
+
+.logo img {
+    position: absolute;
+    left: 40px;
+    width: 300px;  
+    
+}
+.logo img:hover {
+    transform: scale(1.2);
+}
+.logo p:hover {
+
+    transform: scale(1.2);
+}
+.logo2 img {
+    margin: 20% 35%;
+    width: 30%;
+
+}
+.icon1 {
+    font-family: "Poppins" , sans-serif;
+    position: absolute;
+  right: 400px;
+  top: 100px;
+  gap: 20px;
+ 
+}
+
+.icon1 a {
+   color: black;
+   font-size: x-large;
+text-decoration: none;
+    font-family: "Poppins" , sans-serif;
+  
+}
+
+.icon1 ul {
+    list-style: none;
+}
+
+.icon1 li {
+    margin-left: 20px;
+}
+
+.icon1 li:hover {
+    text-decoration: underline;
+}
+
+.logo a {
+    color: black;
+    text-decoration: none;
+
+}
+
+/*end header*/
+
+/*start main */
+
+.panier {
+    position: absolute;
+    top: 300px;
+    left: 43%;
+    font-family: "Poppins" , sans-serif;
+   
+}
+
+
+
+.panier1 {
+    position: absolute;
+    top: 400px;
+    left: 42%;
+    font-family: "Poppins" , sans-serif;
+}
+
+
+.panier2 {
+    position: absolute;
+    top: 500px;
+    left: 40%;
+    font-family: "Poppins" , sans-serif;
+}
+
+.panier2 button {
+    width: 200px;
+    height: 35px;
+    border:black;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    font-family: "Poppins" , sans-serif;
+  
+}
