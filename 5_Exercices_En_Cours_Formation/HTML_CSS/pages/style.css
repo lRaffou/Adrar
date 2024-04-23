@@ -7,7 +7,7 @@
 
 /* Styles généraux */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
@@ -77,12 +77,33 @@ footer {
 
 body {
     color: #fff;
+    background-color: #000000;
 }
 #main {
-    background-image: url(/pages/tp/DEV24-01-resize-2.jpg);
+    background-image: url(/img/DEV24-01-resize-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+h1 {
+    font-size: 80px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
 h2 {
     font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
 }
