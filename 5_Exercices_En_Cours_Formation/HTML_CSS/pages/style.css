@@ -116,10 +116,24 @@ form {
     gap: 5em;
     
 }
-.iframe {
+/* .iframe {
+    display: flex;
+
+    flex-wrap: wrap;
+} */
+.lesVidéos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.video {
+    margin: 15px 0 15px 0;
+}
+
+.video,h3, p {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 main {
     background-image: url(https://cdn.cipherlab.com/comm/upimage/w-170628-02580.jpg);
