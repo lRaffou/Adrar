@@ -116,3 +116,8 @@ form {
     gap: 5em;
     
 }
+main {
+    background-image: url(https://img.freepik.com/photos-gratuite/peinture-lac-montagne-montagne-arriere-plan_188544-9126.jpg?w=996&t=st=1713949604~exp=1713950204~hmac=1b647290129b4f72d9c5aab435ab1751c19f38cb4fc6cbc8862cf6dc3dcefc12);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
