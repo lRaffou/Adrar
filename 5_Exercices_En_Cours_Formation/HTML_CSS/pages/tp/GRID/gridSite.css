@@ -1,0 +1,15 @@
+h1 {
+    display: grid;
+    justify-items: center;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+section {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1em;
+
+}
