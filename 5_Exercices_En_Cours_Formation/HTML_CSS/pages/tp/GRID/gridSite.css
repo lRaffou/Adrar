@@ -16,6 +16,7 @@ ul {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 22px;
+    list-style-type: none;
 }
 nav {
     display: grid;
@@ -25,6 +26,7 @@ nav {
         circle 200px,
         rgb(141, 140, 170) 0%,
         rgba(9, 9, 121, 1) 35%,
-        rgba(0, 212, 255, 1) 100%
+        rgb(255, 255, 255) 100%
     );
+    color: white;
 }
