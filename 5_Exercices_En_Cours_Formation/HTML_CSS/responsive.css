@@ -121,7 +121,7 @@ section {
 }
 body {
     color: #313131;
-    animation: lightTitle 1s infinite;
+    
     background-image: linear-gradient(15deg, #1672ff 0%, #fec279 100%);
     }
     .exemple {
