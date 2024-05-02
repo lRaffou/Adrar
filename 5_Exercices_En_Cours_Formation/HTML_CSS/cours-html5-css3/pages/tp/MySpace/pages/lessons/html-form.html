@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cours Html-Css</title>
+        <link rel="stylesheet" href="/pages/tp/MySpace/CSS/style.css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:400,600,600i,900,900i"
+            rel="stylesheet"
+        />
+        <style>
+            form {
+                width: 50%;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+            }
+            label,
+            input,
+            textarea {
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div class="connex">
+                <a href="/pages/inscription.html">Inscription</a>
+                <a href="/pages/connexion.html">Connexion</a>
+            </div>
+            <h1>Cours HTML - CSS</h1>
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Accueil</a></li>
+                    <li><a href="/pages/tp/CV.html">Mon CV</a></li>
+                    <li><a href="pages/Veille-tech.html">Veille</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        Leçon 1 :
+                        <a href="/pages/lessons/html-text.html">Html (text)</a>
+                    </li>
+                    <li>
+                        Leçon 2 :
+                        <a href="/pages/lessons/html-liens.html"
+                            >Html (liens)</a
+                        >
+                    </li>
+                    <li>
+                        Leçon 3 :
+                        <a href="/pages/lessons/html-img.html">Html (img)</a>
+                    </li>
+                    <li>
+                        Leçon 4 :
+                        <a href="/pages/lessons/css-selector.html"
+                            >Css (selector)</a
+                        >
+                    </li>
+                    <li>
+                        Leçon 5 :
+                        <a href="/pages/lessons/html-form.html">Html (Form)</a>
+                    </li>
+                    <li>Leçon 6 : <a href="css-color.html">Css (Colors)</a></li>
+                </ul>
+                <ul>
+                    <li><a href="/pages/tp/tp-css-pseudo-classes.html">The Page</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- à voir -->
+            <h2>Les FORM</h2>
+            <h2>Exemple</h2>
+            <h3>Inscription</h3>
+            <form action="register.php" method="post">
+                <h4>Renseignez ces informations</h4>
+                <label for="pseudo"></label>
+                <input type="text" name="pseudonyme" id="pseudo" />
+                <input
+                    type="text"
+                    name="firstname"
+                    id="prenom"
+                    placeholder="votre Prénom"
+                />
+                <input type="password" name="motDePasse" id="mdp" />
+                <textarea
+                    name="description"
+                    id="desc"
+                    cols="30"
+                    rows="10"
+                ></textarea>
+                <input type="email" name="mail" id="mail" />
+                <input type="url" name="site" id="mysite" />
+                <input type="tel" name="tel" id="tel" />
+                <input type="number" name="number" id="number" />
+                <input type="range" name="range" id="range" />
+                <input type="button" value="Envoyer" />
+            </form>
+            <h2>Test</h2>
+        </main>
+        <footer>
+            <p>&copy; 2024 Mon Cours. Tous droits réservés.</p>
+        </footer>
+    </body>
+</html>

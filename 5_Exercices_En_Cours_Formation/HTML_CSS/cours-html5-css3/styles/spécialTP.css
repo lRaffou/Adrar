@@ -1,0 +1,27 @@
+main a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    animation: bipBip 5s;
+}
+@keyframes bipBip {
+    from {
+        transform: translateX(500px);
+        color: chartreuse;
+    }
+    30% {
+        transform: rotate(50deg);
+        color: black;
+    }
+    60% {
+        transform: rotate(-50deg);
+        font-size: 60px;
+    }
+    80% {
+        border: 5px solid violet;
+        transform: scale(2);
+    }
+    to {
+        color: blue;
+    }
+}

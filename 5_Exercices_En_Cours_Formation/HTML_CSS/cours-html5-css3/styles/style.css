@@ -1,0 +1,217 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+/* Styles généraux */
+body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media Queries pour le côté responsive */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    nav ul li {
+        margin-right: 0;
+    }
+}
+
+body {
+    color: #fff;
+    background-color: #000000;
+}
+#main {
+    background-image: url(/img/DEV24-01-resize-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+h2 {
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+.connex {
+    gap: 5em;
+    
+}
+/* .iframe {
+    display: flex;
+
+    flex-wrap: wrap;
+} */
+.lesVidéos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.video {
+    margin: 15px 0 15px 0;
+}
+
+.video,h3, p {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    background-image: url(https://cdn.cipherlab.com/comm/upimage/w-170628-02580.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+}
+article {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 297px;
+    align-items: center;
+    background-color: #333;
+    border-radius: 22px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.photo img{
+    width: 297px;
+    height: 170px;
+    /* object-fit: contain; */
+}
+.para {
+    text-align: center;
+}
+.button input{
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px #999;
+  }
+  
+  .button input:hover {background-color: #3e8e41}
+  
+  .button input:active {
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+  }
+  .container:hover{
+    background-color: coral;
+    color: chartreuse;
+}
+
+a:visited{
+    color: red;
+}
+
+a:focus{
+    background-color: yellow;
+}
+
+table {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1em; */
+    border: 2px solid rgb(140 140 140);
+    letter-spacing: 2px;
+    /* padding: 5px; */
+    border-collapse: collapse
+}
+thead th {
+    background-color: crimson;
+    padding: 10px;
+}
