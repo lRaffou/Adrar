@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML : Text</title>
+    <link rel="stylesheet" href="../../style.css">
+    <style>
+        @keyframes masuperanimation {
+            from {
+                /* 0% { */
+                transform: translateX(0);
+                background-color: red;
+            }
+
+            30% {
+                transform: translateX(150px);
+                background-color: rgb(129, 129, 200);
+                transform: skewY(-20deg);
+            }
+
+            45% {
+                background: #373B44;
+                /* fallback for old browsers */
+                background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+                /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to right, #4286f4, #373B44);
+                /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            }
+
+            50% {
+                transform: translateX(150px);
+                background-color: blue;
+            }
+
+            90% {
+                background-image: repeating-radial-gradient(blue, rgb(151, 85, 238) 20px);
+            }
+
+            to {
+                /* 100% { */
+                transform: translateX(150px) rotate(10turn);
+                color: chartreuse;
+                margin-top: 340px;
+            }
+        }
+
+        .animation {
+            width: 500px;
+            height: 700px;
+            background-color: palegreen;
+        }
+
+        .animation:hover {
+            /* ICI on fera un truc  */
+            animation: masuperanimation 6s ease-in-out alternate infinite;
+        }
+
+        .transition {
+            width: 200px;
+            height: 150px;
+            background-color: blue;
+            transition-property: background-color, width, transform;
+            /* transition-property: transform; */
+            /* transition-duration: 5s; */
+            /* transition-timing-function: ease; */
+            /* transition: background-color 6s ease; */
+            transition: background-color 6s ease, width 3s linear;
+        }
+
+        .transition:hover {
+            background-color: red;
+            width: 1000px;
+            transform: translateX(200px);
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Cours HTML - CSS</h1>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Accueil</a></li>
+                <li><a href="../../pages/home-html.html">🪐 HTML</a></li>
+                <li><a href="../../pages/home-css.html">🎨 CSS</a></li>
+                <li><a href="../../pages/home-tp.html">🤔 TP</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <h1>Test animations</h1>
+        <div class="transition"></div>
+        <div class="animation"></div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mon Cours. Tous droits réservés.</p>
+    </footer>
+</body>
+
+</html>

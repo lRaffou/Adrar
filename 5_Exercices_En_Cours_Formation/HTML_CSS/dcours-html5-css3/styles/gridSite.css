@@ -1,0 +1,32 @@
+h1 {
+    display: grid;
+    justify-items: center;
+}
+/* ul {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+} */
+section {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1em;
+}
+ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 22px;
+    list-style-type: none;
+}
+nav {
+    display: grid;
+    justify-items: center;
+    background: rgb(2, 0, 36);
+    background: radial-gradient(
+        circle 200px,
+        rgb(141, 140, 170) 0%,
+        rgba(9, 9, 121, 1) 35%,
+        rgb(255, 255, 255) 100%
+    );
+    color: white;
+}

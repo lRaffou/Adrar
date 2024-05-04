@@ -1,0 +1,15 @@
+.transition{
+    width: 200px;
+    height: 150px;
+    background-color: blue;
+    transition-property: background-color, transform;
+    transition-duration: 4s;
+    transition-delay: 0.5s;
+}
+div:hover {
+    background-color: yellow;
+    transform: scale(1.25);
+    translate: translateX(200px);
+    border-radius: 15px;
+    border: 2px solid #313131;
+}

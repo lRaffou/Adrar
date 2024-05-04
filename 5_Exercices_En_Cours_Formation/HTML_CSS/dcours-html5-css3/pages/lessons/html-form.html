@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML : Text</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Cours HTML - CSS</h1>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Accueil</a></li>
+                <li><a href="../../pages/home-html.html">🪐 HTML</a></li>
+                <li><a href="../../pages/home-css.html">🎨 CSS</a></li>
+                <li><a href="../../pages/home-tp.html">🤔 TP</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<div>
+    <h1>Inscription</h1>
+    <form>
+        <h4>Renseignez ces informations</h4>
+        <label for="pseudo">Pseudo</label>
+        <input type="text" name="pseudonyme" id="pseudo" required>
+        <input type="text" name="firstname" id="prenom" placeholder="votre Prénom">
+        <input type="password" name="motDePasse" id="mdp">
+        <textarea name="description" id="desc" cols="30" rows="10"></textarea>
+        <input type="email" name="mail" id="mail">
+        <input type="url" name="site" id="mysite">
+        <input type="tel" name="tel" id="tel">
+        <input type="number" name="number" id="number">
+        <input type="range" name="range" id="range">
+        <label for="code_postal">Code Postal (Format: 5 chiffres) pattern :</label>
+        <input type="text" name="code_postal" id="code_postal" pattern="[0-9]{5}" title="Veuillez entrer un code postal valide (5 chiffres)" required>
+        <input type="submit" value="Envoyer">
+    </form>
+</div>
+
+    <footer>
+        <p>&copy; 2024 Mon Cours. Tous droits réservés.</p>
+    </footer>
+</body>
+
+</html>

@@ -20,11 +20,15 @@
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "prettier.tabWidth": 4,
     "liveServer.settings.donotVerifyTags": true,
     "launch": {
         "configurations": []
     },
     "css.styleSheets": [],
-    "git.autofetch": true
+    "git.autofetch": true,
+    "css.hover.references": false
 }
