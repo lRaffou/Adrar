@@ -95,7 +95,7 @@ nav {
 
 
 
-.wrapper {
+/* .wrapper {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -197,4 +197,4 @@ input:checked + label .description {
 }
 .card[for="c5"] {
     background-image: url('/img/Red_Night.png');
-}
+} */
