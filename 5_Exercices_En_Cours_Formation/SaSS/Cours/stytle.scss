@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    gap: 2em;
+    margin: 2em;
+}
+
+article {
+    width: 200px;
+    border: 2px solid #000000;
+    div {
+        &:nth-child(1) {
+            height: 320px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    img {
+        width: 100%;
+    }
+    button {
+        color: #090909;
+        padding: 0.7em 1.7em;
+        font-size: 18px;
+        border-radius: 0.5em;
+        background: #e8e8e8;
+        cursor: pointer;
+        border: 1px solid #e8e8e8;
+        transition: all 0.3s;
+        box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+      :active {
+        color: #666;
+        box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+      }
+    }
+}
+
+
+
+
+
+
+
+
