@@ -90,11 +90,11 @@
 // Exercice 8 : Else If
 
 // TODO: Créer une fonction qui reçoit un tableau de 3 notes et qui calcule une moyenne entre ces 3 notes
-function note(tab=[a, b, c]) {
-    let result = (tab[0]+tab[1]+tab[2]) / 3;
-    console.log(result)
-}
-console.log(note(15,12,19));
+// function note(tab=[a, b, c]) {
+//     let result = (tab[0]+tab[1]+tab[2]) / 3;
+//     console.log(result)
+// }
+// console.log(note(15,12,19));
 
 
 // TODO: Dans cette ƒ°, SI la moyenne est supérieure ou égale à 15 on renvoi une string (très Bien)
@@ -106,3 +106,25 @@ console.log(note(15,12,19));
 
 
 // TODO: Dans cette ƒ°, SINON renvoi une string (refus)
+
+
+// function moyenne(tabNote){
+//     let moyenne = (tabNote[0] + tabNote[1] + tabNote[2])/3;
+//     if(moyenne >= 15){
+//         return "Très Bien";
+//     }else if(moyenne >= 10){
+//         return "Assez Bien";
+//     }else {
+//         return "Refus";
+//     }
+// }
+
+// tabNote1 = [19,13,15];
+// tabNote2 = [11,11,12];
+// tabNote3 = [2,6,3];
+
+// console.log(moyenne(tabNote1));
+// console.log(moyenne(tabNote2));
+// console.log(moyenne(tabNote3));
+
+
