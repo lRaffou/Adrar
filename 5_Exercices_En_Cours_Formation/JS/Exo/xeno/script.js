@@ -97,9 +97,9 @@ function profil(tabObjet) {
         profil1.forEach((profil) => {
             if (profil.type == `humain`) {
                 afficherHumain(profil);
-            } else if (profil == `animal de compagnie`) {
+            } else if (profil.type == `animal de compagnie`) {
                 afficherAnimal(profil);
-            } else if (profil == `Xeno`) {
+            } else if (profil.type == `Xeno`) {
                 afficherXeno(profil);
             } else return console.log(`Type de Profil non Existant`);
         });
@@ -111,8 +111,11 @@ profil(usersPet);
 profil(usersXeno);
 
 function profilAll(leTab) {
-    leTab.forEach(profil => {
+    leTab.forEach((profil) => {
         profil();
-    })
+    });
 }
 profilAll(tabData);
+
+// correction
+
