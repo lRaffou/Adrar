@@ -11,16 +11,31 @@
     color: rgb(179, 255, 0);
 }
 
-main {
+/* main {
     min-height: 700px;
     padding: 20px 25%;
-}
+} */
 
 main section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
 main section img {
-    margin-right: 30px;
+    border-radius: 5% 5% 0 0;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4em;
+}
+.card {
+    border: 2px solid black;
+    border-radius: 5%;
+}
+.card h2 {
+    padding-left: 5%;
 }

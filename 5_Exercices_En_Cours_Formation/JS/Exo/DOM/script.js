@@ -42,8 +42,6 @@
 
 // console.log(card.childNodes);
 
-
-
 // title.addEventListener("click", (event) => {
 //     emoji.innerText = "--\ud83e\udd73--";
 //     emoji.style.width = "200px";
@@ -61,32 +59,53 @@
 
 const title = document.querySelector("h1");
 
-title.addEventListener("click",function(){
+title.addEventListener("click", function () {
     titre.innerText = "---- 🥳 ----";
-})
-
+});
 
 const ajouter = document.getElementsByTagName("a")[0];
 const supprimer = document.getElementsByTagName("a")[1];
 const toggle = document.getElementsByTagName("a")[2];
 const titre = document.querySelector("h1");
 
-
-ajouter.addEventListener("click",function(event){
+ajouter.addEventListener("click", function (event) {
     // event.preventDefault();
     titre.classList.add("color");
-})
+});
 
-supprimer.addEventListener("click",function(event){
+supprimer.addEventListener("click", function (event) {
     // event.preventDefault();
     titre.classList.remove("color");
-})
+});
 
-toggle.addEventListener("click",function(event){
+toggle.addEventListener("click", function (event) {
     event.preventDefault();
     titre.classList.toggle("color");
-})
+});
 
 const xy = document.querySelector("body");
 
+// const txtArea = document.getElementById("myTextField");
 
+// txtArea.addEventListener("click", () => {
+//     document.getElementById("myTextField").focus();
+//     txtArea.style.backgroundColor = "red";
+//     txtArea.style.color = "white";
+// });
+
+// txtArea.addEventListener("click", () => {
+//     document.getElementById("myTextField").blur();
+//     txtArea.style.backgroundColor = "white";
+//     txtArea.style.color = "black";
+// });
+
+// let pixCard = document.querySelectorAll("img");
+
+// console.log(pixCard);
+
+// pixCard.map((x) => x * 2 {
+//     pixCard.addEventListener("load", (event) => {
+//         console.log("L'image est complètement chargée");
+//     })
+//     }
+// );
