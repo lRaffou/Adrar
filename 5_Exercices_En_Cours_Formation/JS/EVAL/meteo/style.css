@@ -16,7 +16,7 @@ i {
     margin: 16px 0;
 }
 
-.cardMeteo {
+.cardMeteo, .cardMeteo2 {
     display: flex;
     flex-direction: column;
     align-items: center;
