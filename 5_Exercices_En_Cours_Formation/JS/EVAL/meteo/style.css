@@ -5,7 +5,9 @@
     text-decoration: none;
     list-style: none;
 }
-
+body {
+    display: flex;
+}
 h1 {
     font-size: 1.4rem;
 }
