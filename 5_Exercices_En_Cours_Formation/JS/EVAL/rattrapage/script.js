@@ -24,8 +24,8 @@ METTEZ VOTRE SCRIPT EN DESSOUS
 
 function randomX(number) {
     let nb = Math.random() * number;
-    let nbO = Math.floor(nb);
-    return nbO;
+    let nbAlt = Math.floor(nb);
+    return nbAlt;
 }
 console.log(randomX(30));
 
@@ -39,7 +39,17 @@ class Card {
     }
     showCard() {
         console.log(
-            `------------------------------------------------\n Nom : ${this.name}\n    Puissance : ${this.power}\n Endurance : ${this.thoughness}`
+            `------------------------------------------------\n    Nom : ${this.name}\n    Puissance : ${this.power}\n    Endurance : ${this.thoughness}\n    Type : ${this.type}\n    Fort contre : ${this.strength}\n------------------------------------------------`
         );
+    }
+    attack(card) {
+        let dammage;
+        let attackPower = this.power + randomX(6);
+        if (this.strength == card.type) {
+            attackPower * 1.5;
+            console.log(
+                `La carte ${this.name} a l'avantage contre la carte ${card.name}`
+            );
+        }
     }
 }

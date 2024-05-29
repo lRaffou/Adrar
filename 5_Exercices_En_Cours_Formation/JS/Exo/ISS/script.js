@@ -29,7 +29,7 @@ async function iss() {
         L.marker([
             data.iss_position.latitude,
             data.iss_position.longitude,
-        ]).addTo(map);
+        ]).addTo(map).setLatLng();
     }, 1000);
 }
 iss();
