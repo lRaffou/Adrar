@@ -48,18 +48,18 @@ div.style.left = "0px";
 let i = 5;
 let j = 5;
 
-setInterval(() => {
-    div.style.left = i + "px";
-    i += 5;
-    // if (i >= 700) {
-    //     i = 0;
-    // }
-}, 10);
-setInterval(() => {
-    div.style.top = j + "px";
-    j += 5;
+// setInterval(() => {
+//     div.style.left = i + "px";
+//     i += 5;
+//     // if (i >= 700) {
+//     //     i = 0;
+//     // }
+// }, 10);
+// setInterval(() => {
+//     div.style.top = j + "px";
+//     j += 5;
     
-    if (i >= 600) {
-        div.style.top = j + "px";
-    }
+//     if (i >= 600) {
+//         div.style.top = j + "px";
+//     }
 // }, 10);
