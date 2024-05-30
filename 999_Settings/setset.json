@@ -1,0 +1,37 @@
+{
+    "explorer.confirmDelete": false,
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.autoSave": "afterDelay",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.renderWhitespace": "trailing",
+    "editor.linkedEditing": true,
+    "workbench.tree.indent": 10,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.editor.enablePreview": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.compactFolders": false,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.tabWidth": 4,
+    "liveServer.settings.donotVerifyTags": true,
+    "launch": {
+        "configurations": []
+    },
+    "css.styleSheets": [],
+    "git.autofetch": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "css.enabledLanguages": ["html"],
+    "material-icon-theme.files.associations": {},
+    "fiveServer.highlight": true,
+    "fiveServer.injectBody": true,
+    "prettier.bracketSameLine": true
+}

@@ -5,7 +5,7 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(map);
 
-const marker = L.marker([43.55207627792975, 1.4883414306832576])
+const marker = L.marker([47, 2])
     .addTo(map)
     .bindPopup("PopUp ou Pas PopUP")
     .openPopup();

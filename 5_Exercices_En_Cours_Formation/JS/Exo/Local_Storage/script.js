@@ -26,7 +26,7 @@ if (mdpLocalStorage) {
     id[1].value = mdpLocalStorage;
 }
 
-const remove = storage.removeItem("monSuperTexte");
+const remove = localStorage.removeItem("monSuperTexte");
 
 monTxt.addEventListener("input", () => {
     const nouveauTexte = monTxt.value;
