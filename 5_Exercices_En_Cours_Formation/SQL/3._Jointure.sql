@@ -1,0 +1,20 @@
+CREATE DATABASE blog;
+
+USE blog;
+
+CREATE TABLE utilisateurs(
+	id_utilisateurs INT PRIMARY KEY AUTO_INCREMENT,
+    email VARCHAR(255) NOT NULL UNIQUE,
+	mdp VARCHAR(150) NOT NULL,
+    nom VARCHAR(50) NOT NULL,
+    prenom VARCHAR(50) NOT NULL,
+    avatar VARCHAR(255) NOT NULL
+);
+CREATE TABLE categories(
+	id_categorie INT PRIMARY KEY AUTO_INCREMENT,
+	categorie VARCHAR(50) NOT NULL UNIQUE
+);
+CREATE TABLE articles(
+	id_article INT PRIMARY KEY AUTO_INCREMENT,
+    titre VARCHAR
+);

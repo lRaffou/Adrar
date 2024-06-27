@@ -75,3 +75,37 @@ INSERT INTO contenir (idtickets, idarticles, quantite)
 
 ALTER TABLE articles MODIFY price DECIMAL(8,2);
 
+UPDATE articles SET price = 650000 WHERE idarticles = 1 ;
+UPDATE articles SET price = 2000 WHERE idarticles = 2 ;
+UPDATE articles SET price = 100000 WHERE idarticles = 3 ;
+UPDATE articles SET price = 80000 WHERE idarticles = 4 ;
+UPDATE articles SET price = 250000 WHERE idarticles = 5 ;
+
+UPDATE clients SET last_name = "Kaizoku" WHERE idclients = 1 ;
+UPDATE clients SET first_name = "Luffytaro" WHERE idclients = 1 ;
+
+UPDATE vendeurs SET age = 40 WHERE first_name LIKE "%ha%" OR  name_vendeurs LIKE "%ha%";
+
+UPDATE tickets SET date_ticket = "2024-06-27" WHERE idtickets BETWEEN 1 AND 10;
+
+SELECT count(idvendeurs) FROM vendeurs;
+
+SELECT count(idtickets) FROM tickets;
+
+SELECT idvendeur, count(idtickets) FROM tickets GROUP BY idvendeur;
+
+SELECT avg(quantite) FROM contenir;
+
+SELECT idtickets, avg(quantite) FROM contenir GROUP BY idtickets;
+
+SELECT max(price) FROM articles;
+
+SELECT min(price) FROM articles;
+
+SELECT avg(price) FROM articles;
+
+SELECT max(idclients) AS le_nom, tickets.last_name FROM clients;
+
+SELECT DISTINCT first_name, idclients FROM clients LIMIT 1;
+
+SELECT first_name, idclients FROM clients ORDER BY idclients DESC LIMIT 1;
