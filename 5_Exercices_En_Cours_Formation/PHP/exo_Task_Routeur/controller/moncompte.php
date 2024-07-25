@@ -18,8 +18,8 @@ function afficherCompte(){
 }
 
 //J'appelle la fonction qui affiche la vue en transmettant les données
-// echo renderHeader("");
 echo showMonCompte(afficherCompte()['nom'],afficherCompte()['prenom'],afficherCompte()['login'],afficherCompte()['message']);
+// echo renderHeader("");
 // echo renderFooter("");
 
 echo renderHeader('styleAccueil.css',showConnexion()[1]);

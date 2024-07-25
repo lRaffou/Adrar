@@ -36,7 +36,7 @@ switch($path){
 
     case "/exo_Task_Routeur/connexion":
         include './view/viewConnexion.php';
-        include './controller/moncompte.php';
+        include './controller/seconnecter.php';
     break ;
 
     //route par default
