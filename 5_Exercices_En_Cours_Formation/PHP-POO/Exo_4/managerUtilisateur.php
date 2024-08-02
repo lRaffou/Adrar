@@ -46,7 +46,7 @@ class ManagerUtilisateur extends Utilisateur {
 $user = new ManagerUtilisateur(1);
 
 //Récupération de l'utilisateur selon l'id (1) en BDD
-$data = $user->setBdd(new BDDConnect($_ENV['host'],$_ENV['dbname'],$_ENV['login'],$_ENV['password']))->readUtilisateurById();
+// $data = $user->setBdd(new BDDConnect($_ENV['host'],$_ENV['dbname'],$_ENV['login'],$_ENV['password']))->readUtilisateurById();
 
 //Remplissage des propriété nom, prenom et pseudo, et affichage
 $user->setNom($data[0]["nom"])->setPrenom($data[0]["prenom"])->setPseudo($data[0]["pseudo"])->displayUtilisateur();

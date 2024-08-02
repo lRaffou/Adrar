@@ -1,0 +1,3 @@
+<?php
+//MODEL POUR LA TABLE JOUEURS
+?>
